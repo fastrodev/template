@@ -1,0 +1,17 @@
+ul,
+ol {
+    margin: 1em 0;
+    padding: 0;
+}
+
+ul {
+    list-style: disc outside none;
+}
+
+ol {
+    list-style: decimal outside none;
+}
+
+li {
+    display: list-item;
+}
