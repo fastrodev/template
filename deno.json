@@ -18,7 +18,7 @@
     "preact": "npm:preact@10.19.2",
     "preact/": "npm:/preact@10.19.2/",
     "std/": "https://deno.land/std@0.213.0/",
-    "fastro/": "https://fastro.deno.dev/v0.84.5/"
+    "fastro/": "https://fastro.deno.dev/v0.84.6/"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
