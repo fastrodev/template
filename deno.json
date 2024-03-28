@@ -17,8 +17,8 @@
     "$app/": "./",
     "preact": "https://esm.sh/preact@10.20.0",
     "preact/": "https://esm.sh/preact@10.20.0/",
-    "std/": "https://deno.land/std@0.220.1/",
-    "fastro/": "https://fastro.deno.dev/v0.87.2/"
+    "std/": "https://deno.land/std@0.221.0/",
+    "fastro/": "https://fastro.deno.dev/v0.88.0/"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
