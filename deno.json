@@ -15,10 +15,10 @@
   },
   "imports": {
     "$app/": "./",
-    "preact": "https://esm.sh/preact@10.20.2",
-    "preact/": "https://esm.sh/preact@10.20.2/",
-    "std/": "https://deno.land/std@0.222.0/",
-    "fastro/": "https://fastro.deno.dev/v0.88.3/"
+    "preact": "https://esm.sh/preact@10.21.0",
+    "preact/": "https://esm.sh/preact@10.21.0/",
+    "std/": "https://deno.land/std@0.224.0/",
+    "fastro/": "https://fastro.deno.dev/v0.89.0/"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
