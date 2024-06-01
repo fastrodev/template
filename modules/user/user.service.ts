@@ -1,6 +1,6 @@
-import { User } from "$app/modules/user/user.types.ts";
-import { kv } from "$app/utils/db.ts";
-import { ulid } from "std/ulid/mod.ts";
+import { User } from "@app/modules/user/user.types.ts";
+import { kv } from "@app/utils/db.ts";
+import { ulid } from "jsr:@std/ulid";
 
 export async function getUserByUserIdService(userId: string) {
   const res = await kv.get<User>(["users", userId]);

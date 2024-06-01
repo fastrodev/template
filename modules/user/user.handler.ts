@@ -5,9 +5,9 @@ import {
   getAllUserService,
   getUserByUserIdService,
   updateUserService,
-} from "$app/modules/user/user.service.ts";
+} from "@app/modules/user/user.service.ts";
 import { STATUS_CODE, STATUS_TEXT } from "fastro/http/server/deps.ts";
-import { User } from "$app/modules/user/user.types.ts";
+import { User } from "@app/modules/user/user.types.ts";
 
 export async function getAllUsers(_req: HttpRequest, ctx: Context) {
   const [users, cursor] = await getAllUserService();

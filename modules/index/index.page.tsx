@@ -1,6 +1,6 @@
 import { PageProps } from "fastro/http/server/types.ts";
-import { Header } from "$app/components/header.tsx";
-import { Footer } from "$app/components/footer.tsx";
+import { Header } from "@app/components/header.tsx";
+import { Footer } from "@app/components/footer.tsx";
 
 export default function Index({ data }: PageProps<
   {

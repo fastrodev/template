@@ -5,7 +5,7 @@ import {
   getAllUsers,
   getUserByUserIdHandler,
   updateUserHandler,
-} from "$app/modules/user/user.handler.ts";
+} from "@app/modules/user/user.handler.ts";
 
 export function userModule(s: Fastro) {
   s.get("/api/user", getAllUsers);
