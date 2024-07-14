@@ -15,9 +15,9 @@
   },
   "imports": {
     "@app/": "./",
-    "preact": "https://esm.sh/preact@10.22.0",
-    "preact/": "https://esm.sh/preact@10.22.0/",
-    "fastro/": "https://fastro.deno.dev/v0.90.0/"
+    "preact": "https://esm.sh/preact@10.22.1",
+    "preact/": "https://esm.sh/preact@10.22.1/",
+    "fastro/": "https://fastro.deno.dev/v0.91.0/"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
