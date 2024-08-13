@@ -15,7 +15,10 @@ export function indexLayout(
         <meta property="og:image" content={data.image} />
         <link href="styles.css" rel="stylesheet" />
       </head>
-      <body id="root" class="antialiased">
+      <body
+        id="root"
+        class={`h-screen bg-gray-950 text-white`}
+      >
         {children}
       </body>
     </html>

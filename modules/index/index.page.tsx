@@ -12,12 +12,12 @@ export default function Index({ data }: PageProps<
   }
 >) {
   return (
-    <main class={"grow"}>
+    <main class={`h-full flex flex-col justify-center`}>
       <Header />
-      <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-8xl text-center lg:py-16 lg:px-12">
+      <section class="bg-gray-950">
+        <div class="px-4 mx-auto max-w-8xl text-center">
           <a
-            href="https://fastro.deno.dev/blog"
+            href="https://fastro.dev/blog"
             class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
             role="alert"
           >
@@ -68,20 +68,8 @@ export default function Index({ data }: PageProps<
               </svg>
             </a>
             <div class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-              deno run -A -r https://fastro.deno.dev
+              deno run -A -r https://fastro.dev
             </div>
-          </div>
-          <div class="aspect-w-16 aspect-h-9">
-            <iframe
-              width="640"
-              height="360"
-              src={data.youtube}
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen={undefined}
-              class="relative w-full max-w-4xl mx-auto mt-12 border border-gray-300 shadow-2xl rounded-3xl lg:mt-12 dark:border-gray-700 yt-video"
-            >
-            </iframe>
           </div>
         </div>
       </section>

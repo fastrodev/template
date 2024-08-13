@@ -27,7 +27,4 @@ export default {
       },
     },
   },
-  plugins: [
-    await import("npm:@tailwindcss/aspect-ratio"),
-  ],
 } satisfies Config;

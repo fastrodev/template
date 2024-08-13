@@ -28,7 +28,7 @@ export default function (
         <link href="/styles.css" rel="stylesheet" />
         <link href="/markdown.css" rel="stylesheet" />
       </head>
-      <body class="bg-white dark:bg-gray-900 text-slate-900 dark:text-white">
+      <body class="bg-gray-950 text-white">
         <main class={"container max-w-4xl px-6 py-10 mx-auto"}>
           <div>
             <a
