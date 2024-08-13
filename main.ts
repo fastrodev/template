@@ -1,5 +1,5 @@
 import Server from "fastro/mod.ts";
-import { tailwind } from "fastro/middleware/tailwind/mod.ts";
+import tailwind from "fastro/middleware/tailwind/mod.ts";
 import { indexModule } from "@app/modules/index/index.mod.ts";
 import { userModule } from "@app/modules/user/user.mod.ts";
 import { markdownModule } from "@app/modules/markdown/markdown.mod.ts";
