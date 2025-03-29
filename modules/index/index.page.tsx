@@ -1,4 +1,4 @@
-import { PageProps } from "fastro/http/server/types.ts";
+import { PageProps } from "fastro/core/server/types.ts";
 import { Header } from "@app/components/header.tsx";
 import { Footer } from "@app/components/footer.tsx";
 
@@ -18,7 +18,7 @@ export default function Index({ data }: PageProps<
         <div class="px-4 mx-auto max-w-8xl text-center">
           <a
             href="https://fastro.dev/blog"
-            class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+            class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-400 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
             role="alert"
           >
             <span class="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">
@@ -41,7 +41,7 @@ export default function Index({ data }: PageProps<
               </path>
             </svg>
           </a>
-          <h1 class="mb-4 mx-auto max-w-3xl text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+          <h1 class="mb-4 mx-auto max-w-3xl text-4xl font-extrabold tracking-tight leading-none text-gray-100 md:text-5xl lg:text-6xl dark:text-white">
             {data.title}
           </h1>
           <p class="mb-8 mx-auto max-w-3xl text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
@@ -67,8 +67,8 @@ export default function Index({ data }: PageProps<
                 </path>
               </svg>
             </a>
-            <div class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-              deno run -A -r https://fastro.dev
+            <div class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-100 rounded-lg border border-gray-300 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+              deno run -A -r https://fastro.deno.dev
             </div>
           </div>
         </div>

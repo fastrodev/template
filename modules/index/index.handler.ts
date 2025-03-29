@@ -1,4 +1,4 @@
-import { Context, HttpRequest } from "fastro/http/server/types.ts";
+import { Context, HttpRequest } from "fastro/core/server/types.ts";
 import { indexService } from "@app/modules/index/index.service.ts";
 
 export function indexHandler(_req: HttpRequest, ctx: Context) {

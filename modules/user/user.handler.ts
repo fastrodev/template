@@ -1,4 +1,4 @@
-import { Context, HttpRequest } from "fastro/http/server/types.ts";
+import { Context, HttpRequest } from "fastro/core/server/types.ts";
 import {
   createUserService,
   deleteUserService,
@@ -6,7 +6,7 @@ import {
   getUserByUserIdService,
   updateUserService,
 } from "@app/modules/user/user.service.ts";
-import { STATUS_CODE, STATUS_TEXT } from "fastro/http/server/deps.ts";
+import { STATUS_CODE, STATUS_TEXT } from "fastro/core/server/deps.ts";
 import { User } from "@app/modules/user/user.types.ts";
 
 export async function getAllUsers(_req: HttpRequest, ctx: Context) {

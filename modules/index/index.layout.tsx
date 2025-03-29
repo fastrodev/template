@@ -1,4 +1,4 @@
-import { LayoutProps } from "fastro/http/server/types.ts";
+import { LayoutProps } from "fastro/core/server/types.ts";
 
 export function indexLayout(
   { data, children }: LayoutProps<
@@ -6,7 +6,7 @@ export function indexLayout(
   >,
 ) {
   return (
-    <html lang={"en"}>
+    <html lang="en">
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

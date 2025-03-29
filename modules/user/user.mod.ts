@@ -1,4 +1,4 @@
-import { Fastro } from "fastro/http/server/types.ts";
+import { Fastro } from "fastro/core/server/types.ts";
 import {
   createUserHandler,
   deleteUserHandler,

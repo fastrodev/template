@@ -15,13 +15,15 @@
   },
   "imports": {
     "@app/": "./",
-    "preact": "https://esm.sh/preact@10.23.2",
-    "preact/": "https://esm.sh/preact@10.23.2/",
-    "fastro/": "https://fastro.deno.dev/v0.92.1/"
+    "preact": "npm:preact@^10.26.0",
+    "@preact/signals": "npm:@preact/signals@^2.0.1",
+    "preact-render-to-string": "npm:preact-render-to-string@^6.5.13",
+    "preact/jsx-runtime": "npm:preact@10.26.0/jsx-runtime",
+    "fastro/": "https://raw.githubusercontent.com/fastrodev/fastro/v0.94.3/"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxImportSource": "preact"
   },
-  "nodeModulesDir": true
+  "nodeModulesDir": "auto"
 }

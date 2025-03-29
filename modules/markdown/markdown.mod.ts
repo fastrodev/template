@@ -1,4 +1,4 @@
-import { Fastro } from "fastro/http/server/types.ts";
+import { Fastro } from "fastro/core/server/types.ts";
 import markdown from "fastro/middleware/markdown/mod.tsx";
 import readmeLayout from "@app/modules/markdown/readme.layout.tsx";
 

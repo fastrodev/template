@@ -1,4 +1,4 @@
-import { Fastro } from "fastro/http/server/types.ts";
+import { Fastro } from "fastro/core/server/types.ts";
 import { indexLayout } from "@app/modules/index/index.layout.tsx";
 import { indexHandler } from "@app/modules/index/index.handler.ts";
 import indexPage from "@app/modules/index/index.page.tsx";
