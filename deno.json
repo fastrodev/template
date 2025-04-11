@@ -19,7 +19,7 @@
     "@preact/signals": "npm:@preact/signals@^2.0.1",
     "preact-render-to-string": "npm:preact-render-to-string@^6.5.13",
     "preact/jsx-runtime": "npm:preact@10.26.0/jsx-runtime",
-    "fastro/": "https://raw.githubusercontent.com/fastrodev/fastro/v0.94.4/"
+    "fastro/": "https://raw.githubusercontent.com/fastrodev/fastro/v0.94.5/"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
